@@ -14,6 +14,8 @@ class HomePageViewController: UITableViewController {
         super.viewDidLoad()
         dataSource.append("show loading")
         dataSource.append("menu")
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+
     }
 
     // MARK: - Table view data source
@@ -27,7 +29,16 @@ class HomePageViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath as IndexPath)
+        cell.textLabel?.numberOfLines = 0
+        let title = self.dataSource[indexPath.section]
+        cell.textLabel?.text = title
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
     }
 
 }
