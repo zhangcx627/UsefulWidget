@@ -7,13 +7,18 @@
 
 import UIKit
 
+let UW_SHOW_LOADING = "show loading"
+let UW_MENU = "menu"
+let UW_DRAG_DOT = "drag dot"
+
 class HomePageViewController: UITableViewController {
     
     var dataSource = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataSource.append("show loading")
-        dataSource.append("menu")
+        dataSource.append(UW_SHOW_LOADING)
+        dataSource.append(UW_MENU)
+        dataSource.append(UW_DRAG_DOT)
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
 
     }
@@ -39,12 +44,15 @@ class HomePageViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         switch dataSource[indexPath.row] {
-        case "show loading":
+        case UW_SHOW_LOADING:
             let loading = LoadingViewController()
             self.navigationController?.pushViewController(loading, animated: true)
-        case "menu":
+        case UW_MENU:
            let menu = MenuViewController()
             self.navigationController?.pushViewController(menu, animated: true)
+        case UW_DRAG_DOT:
+            let dragDot = DragDotTableViewController()
+            self.navigationController?.pushViewController(dragDot, animated: true)
         default:
             break
         }

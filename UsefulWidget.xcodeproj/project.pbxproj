@@ -21,6 +21,37 @@
 		2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */; };
 		2D59265D265B3EE60005C2D1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59265C265B3EE60005C2D1 /* LoadingViewController.swift */; };
 		2D592662265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */; };
+		2D59266C265B4A230005C2D1 /* DragDotTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59266B265B4A230005C2D1 /* DragDotTableViewController.swift */; };
+		2D592674265B4AC40005C2D1 /* DragDotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D592673265B4AC40005C2D1 /* DragDotTableViewCell.swift */; };
+		2D5926BB265B4CFC0005C2D1 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592688265B4CFB0005C2D1 /* POPCGUtils.mm */; };
+		2D5926BC265B4CFC0005C2D1 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D59268D265B4CFB0005C2D1 /* POPMath.mm */; };
+		2D5926BD265B4CFC0005C2D1 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592690265B4CFB0005C2D1 /* POPSpringAnimation.mm */; };
+		2D5926BE265B4CFC0005C2D1 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592691265B4CFB0005C2D1 /* POPCustomAnimation.mm */; };
+		2D5926BF265B4CFC0005C2D1 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592694265B4CFB0005C2D1 /* POPAnimationTracer.mm */; };
+		2D5926C0265B4CFC0005C2D1 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592696265B4CFB0005C2D1 /* POPAnimationExtras.mm */; };
+		2D5926C1265B4CFC0005C2D1 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D592698265B4CFB0005C2D1 /* POPDecayAnimation.mm */; };
+		2D5926C2265B4CFC0005C2D1 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926A0265B4CFB0005C2D1 /* POPPropertyAnimation.mm */; };
+		2D5926C3265B4CFC0005C2D1 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926A2265B4CFC0005C2D1 /* POPAnimation.mm */; };
+		2D5926C4265B4CFC0005C2D1 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926A3265B4CFC0005C2D1 /* POPGeometry.mm */; };
+		2D5926C5265B4CFC0005C2D1 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926A4265B4CFC0005C2D1 /* POPBasicAnimation.mm */; };
+		2D5926C6265B4CFC0005C2D1 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926A6265B4CFC0005C2D1 /* TransformationMatrix.cpp */; };
+		2D5926C7265B4CFC0005C2D1 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926AC265B4CFC0005C2D1 /* POPAnimator.mm */; };
+		2D5926C8265B4CFC0005C2D1 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926AD265B4CFC0005C2D1 /* POPAnimatableProperty.mm */; };
+		2D5926C9265B4CFC0005C2D1 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926AF265B4CFC0005C2D1 /* POPAnimationRuntime.mm */; };
+		2D5926CA265B4CFC0005C2D1 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B0265B4CFC0005C2D1 /* POPAnimationEvent.mm */; };
+		2D5926CB265B4CFC0005C2D1 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B1265B4CFC0005C2D1 /* POPLayerExtras.mm */; };
+		2D5926CC265B4CFC0005C2D1 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B2265B4CFC0005C2D1 /* POPVector.mm */; };
+		2D5926CD265B4CFC0005C2D1 /* AzmetaBallItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B7265B4CFC0005C2D1 /* AzmetaBallItem.swift */; };
+		2D5926CE265B4CFC0005C2D1 /* PointUntils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B8265B4CFC0005C2D1 /* PointUntils.swift */; };
+		2D5926CF265B4CFC0005C2D1 /* AZMetaBallCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926B9265B4CFC0005C2D1 /* AZMetaBallCanvas.swift */; };
+		2D5926D0265B4CFC0005C2D1 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926BA265B4CFC0005C2D1 /* Circle.swift */; };
+		2D5926E0265B4F5C0005C2D1 /* blue-dot-animation-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DB265B4F5C0005C2D1 /* blue-dot-animation-2.png */; };
+		2D5926E1265B4F5C0005C2D1 /* blue-dot-animation-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DC265B4F5C0005C2D1 /* blue-dot-animation-3.png */; };
+		2D5926E2265B4F5C0005C2D1 /* blue-dot-animation-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DD265B4F5C0005C2D1 /* blue-dot-animation-1.png */; };
+		2D5926E3265B4F5C0005C2D1 /* blue-dot-animation-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DE265B4F5C0005C2D1 /* blue-dot-animation-4.png */; };
+		2D5926E4265B4F5C0005C2D1 /* blue-dot-animation-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DF265B4F5C0005C2D1 /* blue-dot-animation-5.png */; };
+		2D5926EA265B4FB00005C2D1 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926E9265B4FB00005C2D1 /* IndicatorView.swift */; };
+		2D5926F2265B4FE90005C2D1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */; };
 		A56DD85D60A44962A2DEBBF7 /* Pods_UsefulWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +93,71 @@
 		2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoPopupSWindow.swift; sourceTree = "<group>"; };
 		2D59265C265B3EE60005C2D1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleStrokeSpinActivityIndicatorView.swift; sourceTree = "<group>"; };
+		2D59266B265B4A230005C2D1 /* DragDotTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDotTableViewController.swift; sourceTree = "<group>"; };
+		2D592673265B4AC40005C2D1 /* DragDotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDotTableViewCell.swift; sourceTree = "<group>"; };
+		2D592682265B4CFB0005C2D1 /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		2D592683265B4CFB0005C2D1 /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		2D592684265B4CFB0005C2D1 /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		2D592685265B4CFB0005C2D1 /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		2D592686265B4CFB0005C2D1 /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		2D592687265B4CFB0005C2D1 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		2D592688265B4CFB0005C2D1 /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		2D592689265B4CFB0005C2D1 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		2D59268A265B4CFB0005C2D1 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		2D59268B265B4CFB0005C2D1 /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		2D59268C265B4CFB0005C2D1 /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		2D59268D265B4CFB0005C2D1 /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		2D59268E265B4CFB0005C2D1 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		2D59268F265B4CFB0005C2D1 /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		2D592690265B4CFB0005C2D1 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		2D592691265B4CFB0005C2D1 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		2D592692265B4CFB0005C2D1 /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		2D592693265B4CFB0005C2D1 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		2D592694265B4CFB0005C2D1 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		2D592695265B4CFB0005C2D1 /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		2D592696265B4CFB0005C2D1 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		2D592697265B4CFB0005C2D1 /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		2D592698265B4CFB0005C2D1 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		2D592699265B4CFB0005C2D1 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		2D59269A265B4CFB0005C2D1 /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		2D59269B265B4CFB0005C2D1 /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		2D59269C265B4CFB0005C2D1 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		2D59269D265B4CFB0005C2D1 /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		2D59269E265B4CFB0005C2D1 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		2D59269F265B4CFB0005C2D1 /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		2D5926A0265B4CFB0005C2D1 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		2D5926A1265B4CFC0005C2D1 /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		2D5926A2265B4CFC0005C2D1 /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		2D5926A3265B4CFC0005C2D1 /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		2D5926A4265B4CFC0005C2D1 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		2D5926A6265B4CFC0005C2D1 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		2D5926A7265B4CFC0005C2D1 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		2D5926A8265B4CFC0005C2D1 /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		2D5926A9265B4CFC0005C2D1 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		2D5926AA265B4CFC0005C2D1 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		2D5926AB265B4CFC0005C2D1 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		2D5926AC265B4CFC0005C2D1 /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		2D5926AD265B4CFC0005C2D1 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		2D5926AE265B4CFC0005C2D1 /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		2D5926AF265B4CFC0005C2D1 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		2D5926B0265B4CFC0005C2D1 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		2D5926B1265B4CFC0005C2D1 /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		2D5926B2265B4CFC0005C2D1 /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		2D5926B3265B4CFC0005C2D1 /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		2D5926B4265B4CFC0005C2D1 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		2D5926B5265B4CFC0005C2D1 /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		2D5926B7265B4CFC0005C2D1 /* AzmetaBallItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzmetaBallItem.swift; sourceTree = "<group>"; };
+		2D5926B8265B4CFC0005C2D1 /* PointUntils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointUntils.swift; sourceTree = "<group>"; };
+		2D5926B9265B4CFC0005C2D1 /* AZMetaBallCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZMetaBallCanvas.swift; sourceTree = "<group>"; };
+		2D5926BA265B4CFC0005C2D1 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		2D5926D4265B4D850005C2D1 /* UsefulWidget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsefulWidget-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D5926DB265B4F5C0005C2D1 /* blue-dot-animation-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-2.png"; sourceTree = "<group>"; };
+		2D5926DC265B4F5C0005C2D1 /* blue-dot-animation-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-3.png"; sourceTree = "<group>"; };
+		2D5926DD265B4F5C0005C2D1 /* blue-dot-animation-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-1.png"; sourceTree = "<group>"; };
+		2D5926DE265B4F5C0005C2D1 /* blue-dot-animation-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-4.png"; sourceTree = "<group>"; };
+		2D5926DF265B4F5C0005C2D1 /* blue-dot-animation-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-5.png"; sourceTree = "<group>"; };
+		2D5926E9265B4FB00005C2D1 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.debug.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.release.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.release.xcconfig"; sourceTree = "<group>"; };
 		F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsefulWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,12 +218,15 @@
 				2D5926012657BEAC0005C2D1 /* SceneDelegate.swift */,
 				2D5926032657BEAC0005C2D1 /* ViewController.swift */,
 				2D5926322657BED30005C2D1 /* HomePageViewController.swift */,
+				2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */,
+				2D59266A265B4A090005C2D1 /* DragDot */,
 				2D592666265B3F0F0005C2D1 /* Loading */,
 				2D592658265B3EC10005C2D1 /* Menu */,
 				2D5926052657BEAC0005C2D1 /* Main.storyboard */,
 				2D5926082657BEAD0005C2D1 /* Assets.xcassets */,
 				2D59260A2657BEAD0005C2D1 /* LaunchScreen.storyboard */,
 				2D59260D2657BEAD0005C2D1 /* Info.plist */,
+				2D5926D4265B4D850005C2D1 /* UsefulWidget-Bridging-Header.h */,
 			);
 			path = UsefulWidget;
 			sourceTree = "<group>";
@@ -167,6 +266,116 @@
 				2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */,
 			);
 			path = Loading;
+			sourceTree = "<group>";
+		};
+		2D59266A265B4A090005C2D1 /* DragDot */ = {
+			isa = PBXGroup;
+			children = (
+				2D5926E8265B4F9C0005C2D1 /* img */,
+				2D592680265B4CFB0005C2D1 /* MetaBall */,
+				2D59266B265B4A230005C2D1 /* DragDotTableViewController.swift */,
+				2D592673265B4AC40005C2D1 /* DragDotTableViewCell.swift */,
+				2D5926E9265B4FB00005C2D1 /* IndicatorView.swift */,
+			);
+			path = DragDot;
+			sourceTree = "<group>";
+		};
+		2D592680265B4CFB0005C2D1 /* MetaBall */ = {
+			isa = PBXGroup;
+			children = (
+				2D592681265B4CFB0005C2D1 /* pop */,
+				2D5926B6265B4CFC0005C2D1 /* MetaBall */,
+			);
+			path = MetaBall;
+			sourceTree = "<group>";
+		};
+		2D592681265B4CFB0005C2D1 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				2D592682265B4CFB0005C2D1 /* POPMath.h */,
+				2D592683265B4CFB0005C2D1 /* POPDefines.h */,
+				2D592684265B4CFB0005C2D1 /* POPAnimationInternal.h */,
+				2D592685265B4CFB0005C2D1 /* POPAnimationExtras.h */,
+				2D592686265B4CFB0005C2D1 /* POPAnimationEvent.h */,
+				2D592687265B4CFB0005C2D1 /* POPBasicAnimationInternal.h */,
+				2D592688265B4CFB0005C2D1 /* POPCGUtils.mm */,
+				2D592689265B4CFB0005C2D1 /* POPPropertyAnimationInternal.h */,
+				2D59268A265B4CFB0005C2D1 /* POPDecayAnimationInternal.h */,
+				2D59268B265B4CFB0005C2D1 /* POPSpringAnimation.h */,
+				2D59268C265B4CFB0005C2D1 /* POPBasicAnimation.h */,
+				2D59268D265B4CFB0005C2D1 /* POPMath.mm */,
+				2D59268E265B4CFB0005C2D1 /* POPAnimationPrivate.h */,
+				2D59268F265B4CFB0005C2D1 /* POPAction.h */,
+				2D592690265B4CFB0005C2D1 /* POPSpringAnimation.mm */,
+				2D592691265B4CFB0005C2D1 /* POPCustomAnimation.mm */,
+				2D592692265B4CFB0005C2D1 /* POPCustomAnimation.h */,
+				2D592693265B4CFB0005C2D1 /* POPPropertyAnimation.h */,
+				2D592694265B4CFB0005C2D1 /* POPAnimationTracer.mm */,
+				2D592695265B4CFB0005C2D1 /* POPCGUtils.h */,
+				2D592696265B4CFB0005C2D1 /* POPAnimationExtras.mm */,
+				2D592697265B4CFB0005C2D1 /* POPGeometry.h */,
+				2D592698265B4CFB0005C2D1 /* POPDecayAnimation.mm */,
+				2D592699265B4CFB0005C2D1 /* POPSpringAnimationInternal.h */,
+				2D59269A265B4CFB0005C2D1 /* POPDecayAnimation.h */,
+				2D59269B265B4CFB0005C2D1 /* POPSpringSolver.h */,
+				2D59269C265B4CFB0005C2D1 /* POPAnimatableProperty.h */,
+				2D59269D265B4CFB0005C2D1 /* POPAnimator.h */,
+				2D59269E265B4CFB0005C2D1 /* POPAnimationRuntime.h */,
+				2D59269F265B4CFB0005C2D1 /* POP.h */,
+				2D5926A0265B4CFB0005C2D1 /* POPPropertyAnimation.mm */,
+				2D5926A1265B4CFC0005C2D1 /* POPLayerExtras.h */,
+				2D5926A2265B4CFC0005C2D1 /* POPAnimation.mm */,
+				2D5926A3265B4CFC0005C2D1 /* POPGeometry.mm */,
+				2D5926A4265B4CFC0005C2D1 /* POPBasicAnimation.mm */,
+				2D5926A5265B4CFC0005C2D1 /* WebCore */,
+				2D5926AA265B4CFC0005C2D1 /* POPAnimationTracerInternal.h */,
+				2D5926AB265B4CFC0005C2D1 /* POPAnimationEventInternal.h */,
+				2D5926AC265B4CFC0005C2D1 /* POPAnimator.mm */,
+				2D5926AD265B4CFC0005C2D1 /* POPAnimatableProperty.mm */,
+				2D5926AE265B4CFC0005C2D1 /* POPAnimation.h */,
+				2D5926AF265B4CFC0005C2D1 /* POPAnimationRuntime.mm */,
+				2D5926B0265B4CFC0005C2D1 /* POPAnimationEvent.mm */,
+				2D5926B1265B4CFC0005C2D1 /* POPLayerExtras.mm */,
+				2D5926B2265B4CFC0005C2D1 /* POPVector.mm */,
+				2D5926B3265B4CFC0005C2D1 /* POPVector.h */,
+				2D5926B4265B4CFC0005C2D1 /* POPAnimatorPrivate.h */,
+				2D5926B5265B4CFC0005C2D1 /* POPAnimationTracer.h */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		2D5926A5265B4CFC0005C2D1 /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				2D5926A6265B4CFC0005C2D1 /* TransformationMatrix.cpp */,
+				2D5926A7265B4CFC0005C2D1 /* TransformationMatrix.h */,
+				2D5926A8265B4CFC0005C2D1 /* FloatConversion.h */,
+				2D5926A9265B4CFC0005C2D1 /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+		2D5926B6265B4CFC0005C2D1 /* MetaBall */ = {
+			isa = PBXGroup;
+			children = (
+				2D5926B7265B4CFC0005C2D1 /* AzmetaBallItem.swift */,
+				2D5926B8265B4CFC0005C2D1 /* PointUntils.swift */,
+				2D5926B9265B4CFC0005C2D1 /* AZMetaBallCanvas.swift */,
+				2D5926BA265B4CFC0005C2D1 /* Circle.swift */,
+			);
+			path = MetaBall;
+			sourceTree = "<group>";
+		};
+		2D5926E8265B4F9C0005C2D1 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2D5926DD265B4F5C0005C2D1 /* blue-dot-animation-1.png */,
+				2D5926DB265B4F5C0005C2D1 /* blue-dot-animation-2.png */,
+				2D5926DC265B4F5C0005C2D1 /* blue-dot-animation-3.png */,
+				2D5926DE265B4F5C0005C2D1 /* blue-dot-animation-4.png */,
+				2D5926DF265B4F5C0005C2D1 /* blue-dot-animation-5.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 		6307B9C8E06F8E355F45AE0F /* Frameworks */ = {
@@ -291,9 +500,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5926E2265B4F5C0005C2D1 /* blue-dot-animation-1.png in Resources */,
 				2D59260C2657BEAD0005C2D1 /* LaunchScreen.storyboard in Resources */,
 				2D5926092657BEAD0005C2D1 /* Assets.xcassets in Resources */,
+				2D5926E1265B4F5C0005C2D1 /* blue-dot-animation-3.png in Resources */,
+				2D5926E3265B4F5C0005C2D1 /* blue-dot-animation-4.png in Resources */,
 				2D5926072657BEAC0005C2D1 /* Main.storyboard in Resources */,
+				2D5926E4265B4F5C0005C2D1 /* blue-dot-animation-5.png in Resources */,
+				2D5926E0265B4F5C0005C2D1 /* blue-dot-animation-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,14 +575,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */,
+				2D5926BD265B4CFC0005C2D1 /* POPSpringAnimation.mm in Sources */,
 				2D5926332657BED30005C2D1 /* HomePageViewController.swift in Sources */,
+				2D5926C2265B4CFC0005C2D1 /* POPPropertyAnimation.mm in Sources */,
+				2D5926C1265B4CFC0005C2D1 /* POPDecayAnimation.mm in Sources */,
 				2D5926042657BEAC0005C2D1 /* ViewController.swift in Sources */,
+				2D5926C3265B4CFC0005C2D1 /* POPAnimation.mm in Sources */,
+				2D5926CC265B4CFC0005C2D1 /* POPVector.mm in Sources */,
+				2D5926C9265B4CFC0005C2D1 /* POPAnimationRuntime.mm in Sources */,
+				2D5926BC265B4CFC0005C2D1 /* POPMath.mm in Sources */,
+				2D5926CF265B4CFC0005C2D1 /* AZMetaBallCanvas.swift in Sources */,
+				2D5926BE265B4CFC0005C2D1 /* POPCustomAnimation.mm in Sources */,
+				2D5926CD265B4CFC0005C2D1 /* AzmetaBallItem.swift in Sources */,
+				2D5926C8265B4CFC0005C2D1 /* POPAnimatableProperty.mm in Sources */,
+				2D5926C5265B4CFC0005C2D1 /* POPBasicAnimation.mm in Sources */,
 				2D59265D265B3EE60005C2D1 /* LoadingViewController.swift in Sources */,
 				2D5926442657C55D0005C2D1 /* MenuViewController.swift in Sources */,
+				2D5926D0265B4CFC0005C2D1 /* Circle.swift in Sources */,
+				2D592674265B4AC40005C2D1 /* DragDotTableViewCell.swift in Sources */,
+				2D5926C6265B4CFC0005C2D1 /* TransformationMatrix.cpp in Sources */,
+				2D5926CB265B4CFC0005C2D1 /* POPLayerExtras.mm in Sources */,
 				2D592662265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift in Sources */,
+				2D5926F2265B4FE90005C2D1 /* UIColorExtension.swift in Sources */,
+				2D59266C265B4A230005C2D1 /* DragDotTableViewController.swift in Sources */,
+				2D5926C7265B4CFC0005C2D1 /* POPAnimator.mm in Sources */,
 				2D5926502657CE450005C2D1 /* EdoMenuView.swift in Sources */,
+				2D5926CE265B4CFC0005C2D1 /* PointUntils.swift in Sources */,
 				2D5926002657BEAC0005C2D1 /* AppDelegate.swift in Sources */,
+				2D5926BF265B4CFC0005C2D1 /* POPAnimationTracer.mm in Sources */,
+				2D5926EA265B4FB00005C2D1 /* IndicatorView.swift in Sources */,
+				2D5926C4265B4CFC0005C2D1 /* POPGeometry.mm in Sources */,
 				2D5926022657BEAC0005C2D1 /* SceneDelegate.swift in Sources */,
+				2D5926CA265B4CFC0005C2D1 /* POPAnimationEvent.mm in Sources */,
+				2D5926BB265B4CFC0005C2D1 /* POPCGUtils.mm in Sources */,
+				2D5926C0265B4CFC0005C2D1 /* POPAnimationExtras.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +794,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Chenxu.UsefulWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UsefulWidget/UsefulWidget-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -574,6 +815,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Chenxu.UsefulWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UsefulWidget/UsefulWidget-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
