@@ -19,6 +19,8 @@
 		2D5926442657C55D0005C2D1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926432657C55D0005C2D1 /* MenuViewController.swift */; };
 		2D5926502657CE450005C2D1 /* EdoMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59264E2657CE450005C2D1 /* EdoMenuView.swift */; };
 		2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */; };
+		2D59265D265B3EE60005C2D1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59265C265B3EE60005C2D1 /* LoadingViewController.swift */; };
+		2D592662265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */; };
 		A56DD85D60A44962A2DEBBF7 /* Pods_UsefulWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		2D5926432657C55D0005C2D1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2D59264E2657CE450005C2D1 /* EdoMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoMenuView.swift; sourceTree = "<group>"; };
 		2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoPopupSWindow.swift; sourceTree = "<group>"; };
+		2D59265C265B3EE60005C2D1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleStrokeSpinActivityIndicatorView.swift; sourceTree = "<group>"; };
 		8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.debug.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.release.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.release.xcconfig"; sourceTree = "<group>"; };
 		F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsefulWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,9 +122,8 @@
 				2D5926012657BEAC0005C2D1 /* SceneDelegate.swift */,
 				2D5926032657BEAC0005C2D1 /* ViewController.swift */,
 				2D5926322657BED30005C2D1 /* HomePageViewController.swift */,
-				2D5926432657C55D0005C2D1 /* MenuViewController.swift */,
-				2D59264E2657CE450005C2D1 /* EdoMenuView.swift */,
-				2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */,
+				2D592666265B3F0F0005C2D1 /* Loading */,
+				2D592658265B3EC10005C2D1 /* Menu */,
 				2D5926052657BEAC0005C2D1 /* Main.storyboard */,
 				2D5926082657BEAD0005C2D1 /* Assets.xcassets */,
 				2D59260A2657BEAD0005C2D1 /* LaunchScreen.storyboard */,
@@ -145,6 +148,25 @@
 				2D5926232657BEAE0005C2D1 /* Info.plist */,
 			);
 			path = UsefulWidgetUITests;
+			sourceTree = "<group>";
+		};
+		2D592658265B3EC10005C2D1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2D5926432657C55D0005C2D1 /* MenuViewController.swift */,
+				2D59264E2657CE450005C2D1 /* EdoMenuView.swift */,
+				2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2D592666265B3F0F0005C2D1 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				2D59265C265B3EE60005C2D1 /* LoadingViewController.swift */,
+				2D592661265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		6307B9C8E06F8E355F45AE0F /* Frameworks */ = {
@@ -341,7 +363,9 @@
 				2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */,
 				2D5926332657BED30005C2D1 /* HomePageViewController.swift in Sources */,
 				2D5926042657BEAC0005C2D1 /* ViewController.swift in Sources */,
+				2D59265D265B3EE60005C2D1 /* LoadingViewController.swift in Sources */,
 				2D5926442657C55D0005C2D1 /* MenuViewController.swift in Sources */,
+				2D592662265B3F090005C2D1 /* CircleStrokeSpinActivityIndicatorView.swift in Sources */,
 				2D5926502657CE450005C2D1 /* EdoMenuView.swift in Sources */,
 				2D5926002657BEAC0005C2D1 /* AppDelegate.swift in Sources */,
 				2D5926022657BEAC0005C2D1 /* SceneDelegate.swift in Sources */,

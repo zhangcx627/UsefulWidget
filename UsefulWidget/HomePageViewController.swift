@@ -40,7 +40,8 @@ class HomePageViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         switch dataSource[indexPath.row] {
         case "show loading":
-            break
+            let loading = LoadingViewController()
+            self.navigationController?.pushViewController(loading, animated: true)
         case "menu":
            let menu = MenuViewController()
             self.navigationController?.pushViewController(menu, animated: true)
@@ -49,4 +50,12 @@ class HomePageViewController: UITableViewController {
         }
     }
 
+}
+
+extension RangeReplaceableCollection where Iterator.Element : Equatable {
+    mutating func removeObject(_ object : Iterator.Element) {
+        if let index = self.firstIndex(of: object) {
+            self.remove(at: index)
+        }
+    }
 }
