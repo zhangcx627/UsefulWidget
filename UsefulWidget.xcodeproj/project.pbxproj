@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		2D5926172657BEAE0005C2D1 /* UsefulWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926162657BEAE0005C2D1 /* UsefulWidgetTests.swift */; };
 		2D5926222657BEAE0005C2D1 /* UsefulWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926212657BEAE0005C2D1 /* UsefulWidgetUITests.swift */; };
 		2D5926332657BED30005C2D1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926322657BED30005C2D1 /* HomePageViewController.swift */; };
+		2D5926442657C55D0005C2D1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926432657C55D0005C2D1 /* MenuViewController.swift */; };
+		2D5926502657CE450005C2D1 /* EdoMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59264E2657CE450005C2D1 /* EdoMenuView.swift */; };
+		2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */; };
+		A56DD85D60A44962A2DEBBF7 /* Pods_UsefulWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		2D5926212657BEAE0005C2D1 /* UsefulWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulWidgetUITests.swift; sourceTree = "<group>"; };
 		2D5926232657BEAE0005C2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D5926322657BED30005C2D1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2D5926432657C55D0005C2D1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2D59264E2657CE450005C2D1 /* EdoMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoMenuView.swift; sourceTree = "<group>"; };
+		2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoPopupSWindow.swift; sourceTree = "<group>"; };
+		8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.debug.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.release.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.release.xcconfig"; sourceTree = "<group>"; };
+		F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsefulWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56DD85D60A44962A2DEBBF7 /* Pods_UsefulWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				2D5926152657BEAE0005C2D1 /* UsefulWidgetTests */,
 				2D5926202657BEAE0005C2D1 /* UsefulWidgetUITests */,
 				2D5925FD2657BEAC0005C2D1 /* Products */,
+				97882749F7FA80C28EAAF807 /* Pods */,
+				6307B9C8E06F8E355F45AE0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,9 @@
 				2D5926012657BEAC0005C2D1 /* SceneDelegate.swift */,
 				2D5926032657BEAC0005C2D1 /* ViewController.swift */,
 				2D5926322657BED30005C2D1 /* HomePageViewController.swift */,
+				2D5926432657C55D0005C2D1 /* MenuViewController.swift */,
+				2D59264E2657CE450005C2D1 /* EdoMenuView.swift */,
+				2D59264F2657CE450005C2D1 /* EdoPopupSWindow.swift */,
 				2D5926052657BEAC0005C2D1 /* Main.storyboard */,
 				2D5926082657BEAD0005C2D1 /* Assets.xcassets */,
 				2D59260A2657BEAD0005C2D1 /* LaunchScreen.storyboard */,
@@ -131,6 +147,23 @@
 			path = UsefulWidgetUITests;
 			sourceTree = "<group>";
 		};
+		6307B9C8E06F8E355F45AE0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97882749F7FA80C28EAAF807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */,
+				EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D5926262657BEAE0005C2D1 /* Build configuration list for PBXNativeTarget "UsefulWidget" */;
 			buildPhases = (
+				9E85DF811182B8E078D0F984 /* [CP] Check Pods Manifest.lock */,
 				2D5925F82657BEAC0005C2D1 /* Sources */,
 				2D5925F92657BEAC0005C2D1 /* Frameworks */,
 				2D5925FA2657BEAC0005C2D1 /* Resources */,
+				250568A91F332DEFFF2078EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,13 +291,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		250568A91F332DEFFF2078EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E85DF811182B8E078D0F984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UsefulWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D5925F82657BEAC0005C2D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5926512657CE450005C2D1 /* EdoPopupSWindow.swift in Sources */,
 				2D5926332657BED30005C2D1 /* HomePageViewController.swift in Sources */,
 				2D5926042657BEAC0005C2D1 /* ViewController.swift in Sources */,
+				2D5926442657C55D0005C2D1 /* MenuViewController.swift in Sources */,
+				2D5926502657CE450005C2D1 /* EdoMenuView.swift in Sources */,
 				2D5926002657BEAC0005C2D1 /* AppDelegate.swift in Sources */,
 				2D5926022657BEAC0005C2D1 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +517,7 @@
 		};
 		2D5926272657BEAE0005C2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +537,7 @@
 		};
 		2D5926282657BEAE0005C2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
