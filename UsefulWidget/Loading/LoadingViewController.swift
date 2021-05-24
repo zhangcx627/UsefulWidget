@@ -3,7 +3,8 @@
 //  UsefulWidget
 //
 //  Created by chenxu on 2021/5/24.
-//
+//  https://github.com/ninjaprox/NVActivityIndicatorView.git
+//  You can add some other loading from this repository
 
 import UIKit
 
