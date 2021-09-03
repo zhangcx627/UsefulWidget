@@ -52,6 +52,7 @@
 		2D5926E4265B4F5C0005C2D1 /* blue-dot-animation-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5926DF265B4F5C0005C2D1 /* blue-dot-animation-5.png */; };
 		2D5926EA265B4FB00005C2D1 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926E9265B4FB00005C2D1 /* IndicatorView.swift */; };
 		2D5926F2265B4FE90005C2D1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */; };
+		2DE66B1B26E2325E00C165AC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE66B1A26E2325E00C165AC /* Helpers.swift */; };
 		A56DD85D60A44962A2DEBBF7 /* Pods_UsefulWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +159,7 @@
 		2D5926DF265B4F5C0005C2D1 /* blue-dot-animation-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-dot-animation-5.png"; sourceTree = "<group>"; };
 		2D5926E9265B4FB00005C2D1 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2DE66B1A26E2325E00C165AC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		8C55C3325D205488B38185EF /* Pods-UsefulWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.debug.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		EA6057A17F04184B584FC60B /* Pods-UsefulWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsefulWidget.release.xcconfig"; path = "Target Support Files/Pods-UsefulWidget/Pods-UsefulWidget.release.xcconfig"; sourceTree = "<group>"; };
 		F82DF0645AE1AA9DAEA9BCA2 /* Pods_UsefulWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UsefulWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 				2D5925FF2657BEAC0005C2D1 /* AppDelegate.swift */,
 				2D5926012657BEAC0005C2D1 /* SceneDelegate.swift */,
 				2D5926032657BEAC0005C2D1 /* ViewController.swift */,
+				2DE66B1A26E2325E00C165AC /* Helpers.swift */,
 				2D5926322657BED30005C2D1 /* HomePageViewController.swift */,
 				2D5926F1265B4FE90005C2D1 /* UIColorExtension.swift */,
 				2D59266A265B4A090005C2D1 /* DragDot */,
@@ -605,6 +608,7 @@
 				2D5926BF265B4CFC0005C2D1 /* POPAnimationTracer.mm in Sources */,
 				2D5926EA265B4FB00005C2D1 /* IndicatorView.swift in Sources */,
 				2D5926C4265B4CFC0005C2D1 /* POPGeometry.mm in Sources */,
+				2DE66B1B26E2325E00C165AC /* Helpers.swift in Sources */,
 				2D5926022657BEAC0005C2D1 /* SceneDelegate.swift in Sources */,
 				2D5926CA265B4CFC0005C2D1 /* POPAnimationEvent.mm in Sources */,
 				2D5926BB265B4CFC0005C2D1 /* POPCGUtils.mm in Sources */,
