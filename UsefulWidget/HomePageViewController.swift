@@ -17,7 +17,7 @@ class HomePageViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dataSource.append(UW_SHOW_LOADING)
-        dataSource.append(UW_MENU)
+        //dataSource.append(UW_MENU)
         dataSource.append(UW_DRAG_DOT)
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
 
